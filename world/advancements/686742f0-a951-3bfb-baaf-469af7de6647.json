@@ -732,7 +732,8 @@
       "apple": "2023-06-10 13:02:54 +0700",
       "cooked_cod": "2023-06-09 22:51:38 +0700",
       "cooked_chicken": "2023-06-09 22:38:38 +0700",
-      "cooked_salmon": "2023-06-11 15:45:49 +0700"
+      "cooked_salmon": "2023-06-11 15:45:49 +0700",
+      "carrot": "2023-06-12 21:50:09 +0700"
     },
     "done": false
   },
@@ -1598,9 +1599,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
-      "has_raw_copper": "2023-06-11 15:17:02 +0700"
+      "has_iron_nugget": "2023-06-11 15:11:45 +0700"
     },
     "done": true
   },
@@ -1610,15 +1611,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2023-06-11 15:16:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2023-06-11 15:17:02 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2023-06-11 15:17:02 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/tools/flint_and_steel": {
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
-      "has_flint": "2023-06-11 15:16:42 +0700"
+      "has_raw_copper": "2023-06-11 15:17:02 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2023-06-11 15:17:39 +0700"
     },
     "done": true
   },
@@ -1631,24 +1650,6 @@
   "minecraft:recipes/redstone/target": {
     "criteria": {
       "has_hay_block": "2023-06-11 15:44:20 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_coal": "2023-06-11 15:17:39 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
-    "criteria": {
-      "has_raw_copper": "2023-06-11 15:17:02 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
-    "criteria": {
-      "has_iron_nugget": "2023-06-11 15:11:45 +0700"
     },
     "done": true
   },
